@@ -28,7 +28,7 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     line-height: 1.7;
     color:var(--color-primary);
-    background:linear-gradient(to right, var(--color-danger),var(--color-success));
+    background: linear-gradient(to right, var(--color-danger),var(--color-success));
 }
 
 .container{
