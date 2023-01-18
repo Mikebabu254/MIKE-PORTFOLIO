@@ -85,6 +85,8 @@ img{
     padding: 1rem 2rem;
     border: 1px solid transparent;
     font-weight: 500;
+border-radius: 30px;
+transition: 1000ms;
 }
 
 .btn:hover{
