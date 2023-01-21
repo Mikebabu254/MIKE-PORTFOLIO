@@ -27,8 +27,8 @@
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     line-height: 1.7;
-    color:var(--color-primary);
-    background: aliceblue;
+    color: black;
+    background: aqua;
 }
 
 .container{
@@ -103,7 +103,8 @@ transition: 1000ms;
 /*==================NAVBAR==================*/
 
 nav{
-    background-color: antiquewhite;
+    background-color: aliceblue;
+color: black;
     width: 100vw;
     height: 5rem;
     position: fixed;
