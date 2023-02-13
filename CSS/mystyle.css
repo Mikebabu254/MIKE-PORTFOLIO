@@ -209,8 +209,19 @@ header{
 
 /*........blog.........*/
 
-.selection{
+.wats_trending{
+    margin-top: 100px;
     background-color: var(--color-bg2);
     width: 100%;
     height: 100vh;
+}
+
+.sports{
+    background-color: var(--color-warning);
+    width: 100%;
+    height: 100vh;
+}
+
+.txt{
+    text-align: center;
 }
