@@ -226,3 +226,11 @@ header{
 .txt{
     text-align: center;
 }
+
+.score{
+    align-items: center;
+}
+
+table, tr, td{
+    border: 20px;
+}
