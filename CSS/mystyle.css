@@ -239,3 +239,7 @@ table, tr, td{
 table{
     margin-top: 10vh;
 }
+
+.mq_img{
+    width: 300px;
+}
