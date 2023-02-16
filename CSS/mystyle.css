@@ -211,14 +211,14 @@ header{
 
 .wats_trending{
     margin-top: 100px;
-    background-color: var(--color-bg2);
+    background-color: var(--color-primary);
     width: 100%;
     height: auto;
 }
 
 .sports{
     margin-top: 10px;
-    background-color: var(--color-warning);
+    background-color: var(--color-primary);
     width: 100%;
     height: auto;
 }
