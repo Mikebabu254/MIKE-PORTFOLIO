@@ -24,8 +24,8 @@ nav{
     margin-top: 0px;
     padding: 10px;
     display: inline-block;
-    width: 200px;
-    height: 80px;
+    width: 250px;
+    height: 70px;
 }
 
 nav ul {
@@ -47,7 +47,7 @@ nav ul li a{
 }
 
 a.active,a:hover{
-    background-color: var(--pearl);
+    background-color: var(--wheat);
     transition: 1s;
     border-radius: 10px;
     color: var(--black);
