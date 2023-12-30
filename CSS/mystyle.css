@@ -23,7 +23,6 @@ nav{
 .logo{
     margin-top: 0px;
     padding: 10px;
-    display: inline-block;
     width: 250px;
     height: 70px;
 }
@@ -51,4 +50,30 @@ a.active,a:hover{
     transition: 1s;
     border-radius: 10px;
     color: var(--black);
+}
+
+.content-container{
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    gap: 50px;
+}
+
+.text-container{
+    padding-top: 130px;
+    width: 45%;
+}
+
+.text-container h1{
+    font-size: 50px;
+}
+
+.text-container h3{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.image-container{
+    width: 400px;
+    border-radius: 10px;
+    
 }
