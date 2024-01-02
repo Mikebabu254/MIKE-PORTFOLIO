@@ -127,6 +127,87 @@ footer{
     }
 }
 
-@media screen(max-width: 750px) {
+@media (max-width: 915px){
     
+
+    .text-container{
+        width: 400px;
+        color: var(--black);
+    }
+
+    .content-container{
+        width: 90%;
+        display: flex;
+        gap: 20px;
+    }
+
+    .image-container{
+        width: 400px;
+        padding-top: -200px;
+        margin-top: -200px;
+        border-radius: 10px;
+        
+    }
+
+}
+
+@media (max-width: 904px){
+    .text-container{
+        width: 400px;
+        color: var(--black);
+    }
+
+    .content-container{
+        width: 90%;
+        padding: 20px;
+        margin: 20px;
+        display: flex;
+        gap: 20px;
+    }
+
+    .image-container{
+        width: 400px;
+        margin-top: -200px;
+        border-radius: 10px;
+
+    }
+}
+
+@media (max-width: 915px){
+    .content-container{
+
+        .text-container{
+            margin-top: -100px;
+            width: 400px;
+            color: var(--black);
+            
+        }
+
+    .content-container{
+        width: 90%;
+        padding: 20px;
+        margin: 20px;
+        display: flex;
+        gap: 20px;
+        
+    }
+
+    .image-container{
+        width: 400px;
+        margin-top: -100px;
+        border-radius: 10px;
+    }
+
+}
+
+@media (max-width: 750px) {
+
+    .content-container{
+        width: 90%;
+        padding: 20px;
+        margin: 20px;
+        display: flex;
+        gap: 20px;
+    }
+
 }
