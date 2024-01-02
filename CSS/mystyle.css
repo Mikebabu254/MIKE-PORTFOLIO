@@ -12,6 +12,7 @@
     --pearl:#52616b;
     --dark: #1e2022;
     --black: #000000;
+    --aqua: #00ffff;
 }
 
 nav{
@@ -46,10 +47,9 @@ nav ul li a{
 }
 
 a.active,a:hover{
-    background-color: var(--wheat);
     transition: 1s;
     border-radius: 10px;
-    color: var(--black);
+    color: var(--aqua);
 }
 
 .content-container{
