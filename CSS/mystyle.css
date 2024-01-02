@@ -102,3 +102,31 @@ footer{
     font-size: 20px;
 }
 
+/* ----------------MEDIA QUERIES----------*/
+
+@media (max-width: 1174px) {
+
+    .content-container{
+        width: 90%;
+        padding: 20px;
+        margin: 20px;
+        display: flex;
+        gap: 20px;
+    }
+
+    .text-container{
+        padding-top: 10px;
+        width: 400px;
+        color: var(--black);
+    }
+
+    .image-container{
+        width: 500px;
+        margin-top: -100px;
+        border-radius: 10px;
+    }
+}
+
+@media screen(max-width: 750px) {
+    
+}
