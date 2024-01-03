@@ -1,14 +1,11 @@
 document.addEventListener("DOMContentLoaded", function() {
-    // Add click event listener to the fa-bars icon
     var faBarIcon = document.getElementById("faBar");
     var navList = document.getElementById("navList");
-  
+
     faBarIcon.addEventListener("click", function() {
-      // Change the color of the links
-      var links = navList.getElementsByTagName("a");
-      for (var i = 0; i < links.length; i++) {
-        links[i].style.color = "blue";
-      }
+        // Toggle between 100% and 50% marginLeft
+        var currentMargin = parseInt(navList.style.marginLeft) || 0;
+        var newMargin = (currentMargin === 100) ? 0 : 100;
+        navList.style.marginLeft = newMargin + "%";
     });
-  });
-  
+});

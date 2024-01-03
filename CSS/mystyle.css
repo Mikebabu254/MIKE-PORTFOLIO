@@ -111,6 +111,8 @@ footer{
         background-color: var(--dark);
         height: 400px;
         width: 100%;
+        left: -100%;
+        transition: 2s;
     }
 
     nav ul li{
@@ -124,11 +126,19 @@ footer{
         font-size: 35px;
     }
 
-    .fa-solid{
+    .fa-bars{
         color: var(--aqua);
         font-size: 40px;
         float: right;
         margin: 30px 50px 0 0;
+    }
+
+    .fa-xmark{
+        color: var(--aqua);
+        font-size: 40px;
+        float: right;
+        margin: 30px 50px 0 0;
+        visibility: hidden;
     }
 
     .content-container{
@@ -153,9 +163,44 @@ footer{
 }
 
 @media (max-width: 915px){
-    
+
+    nav ul{
+        position: absolute;
+        background-color: var(--dark);
+        height: 400px;
+        width: 100%;
+        left: -40%;
+        transition: 2s;
+    }
+
+    nav ul li{
+        display: block;
+        text-align: center;
+        
+    }
+
+    nav ul li a{
+        color: var(--aqua);
+        font-size: 35px;
+    }
+
+    .fa-bars{
+        color: var(--aqua);
+        font-size: 40px;
+        float: right;
+        margin: 30px 50px 0 0;
+    }
+
+    .fa-xmark{
+        color: var(--aqua);
+        font-size: 40px;
+        float: right;
+        margin: 30px 50px 0 0;
+        visibility: hidden;
+    }
 
     .text-container{
+        padding-top: 100px;
         width: 400px;
         color: var(--black);
     }
@@ -168,8 +213,7 @@ footer{
 
     .image-container{
         width: 400px;
-        padding-top: -200px;
-        margin-top: -200px;
+        padding-top: 50px;
         border-radius: 10px;
         
     }
