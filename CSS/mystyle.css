@@ -103,6 +103,16 @@ footer{
 }
 
 /* ----------------MEDIA QUERIES----------*/
+@media (max-width: 1208px) {
+
+    .logo{
+        margin-top: 0px;
+        padding: 10px;
+        width: 200px;
+        height: 70px;
+    }
+    
+}
 
 @media (max-width: 1174px) {
 
