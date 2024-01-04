@@ -116,6 +116,52 @@ footer{
 
 @media (max-width: 1174px) {
 
+    .logo{
+        margin-top: 0px;
+        padding: 10px;
+        width: 190px;
+        height: 70px;
+    }
+
+    nav ul {
+        float: right;
+        margin-right: 30px;
+    }
+
+    nav ul li{
+        display: inline-block;
+        line-height: 25px;
+        margin: 40px 20px;
+    }
+    
+    nav ul li a{
+        color: var(--wheat);
+        font-size: 30px;
+    }
+
+    .content-container{
+        width: 90%;
+        padding: 20px;
+        margin: 20px;
+        display: flex;
+        gap: 20px;
+    }
+
+    .text-container{
+        padding-top: 10px;
+        width: 400px;
+        color: var(--black);
+    }
+
+    .image-container{
+        width: 500px;
+        margin-top: -50px;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 948px){
+
     nav ul{
         position: absolute;
         background-color: var(--dark);
@@ -151,25 +197,25 @@ footer{
         visibility: hidden;
     }
 
-    .content-container{
-        width: 90%;
-        padding: 20px;
-        margin: 20px;
-        display: flex;
-        gap: 20px;
-    }
-
     .text-container{
         padding-top: 10px;
         width: 400px;
         color: var(--black);
     }
 
-    .image-container{
-        width: 500px;
-        margin-top: -50px;
-        border-radius: 10px;
+    .content-container{
+        width: 90%;
+        display: flex;
+        gap: 20px;
     }
+
+    .image-container{
+        width: 400px;
+        padding-top: 10px;
+        border-radius: 10px;
+        
+    }
+
 }
 
 @media (max-width: 915px){
@@ -179,7 +225,7 @@ footer{
         background-color: var(--dark);
         height: 400px;
         width: 100%;
-        left: -40%;
+        left: -100%;
         transition: 2s;
     }
 
@@ -279,8 +325,64 @@ footer{
 
 }
 
-@media (max-width: 750px) {
+@media (max-width: 828px){
 
+    nav ul{
+        position: absolute;
+        background-color: var(--dark);
+        height: 400px;
+        width: 100%;
+        left: -100%;
+        transition: 2s;
+    }
+
+    nav ul li{
+        display: block;
+        text-align: center;
+        
+    }
+
+    nav ul li a{
+        color: var(--aqua);
+        font-size: 35px;
+    }
+
+    .fa-bars{
+        color: var(--aqua);
+        font-size: 40px;
+        float: right;
+        margin: 30px 50px 0 0;
+    }
+
+    .fa-xmark{
+        color: var(--aqua);
+        font-size: 40px;
+        float: right;
+        margin: 30px 50px 0 0;
+        visibility: hidden;
+    }
+
+    .text-container{
+        padding-top: 100px;
+        width: 350px;
+        color: var(--black);
+    }
+
+    .content-container{
+        width: 90%;
+        display: flex;
+        gap: 10px;
+    }
+
+    .image-container{
+        width: 300px;
+        padding-top: 100px;
+        border-radius: 10px;
+    }
+
+}
+
+@media (max-width: 792px) {
     .content-container{
         width: 90%;
         padding: 20px;
@@ -289,4 +391,67 @@ footer{
         gap: 20px;
     }
 
+    .image-container{
+        width: 300px;
+        padding-top: 120px;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 783px) {
+
+    nav ul{
+        position: absolute;
+        background-color: var(--dark);
+        height: 400px;
+        width: 100%;
+        left: -100%;
+        transition: 2s;
+    }
+
+    nav ul li{
+        display: block;
+        text-align: center;
+        
+    }
+
+    nav ul li a{
+        color: var(--aqua);
+        font-size: 35px;
+    }
+
+    .fa-bars{
+        color: var(--aqua);
+        font-size: 40px;
+        float: right;
+        margin: 30px 50px 0 0;
+    }
+
+    .fa-xmark{
+        color: var(--aqua);
+        font-size: 40px;
+        float: right;
+        margin: 30px 50px 0 0;
+        visibility: hidden;
+    }
+
+    .text-container{
+        padding-top: 10px;
+        width: 400px;
+        color: var(--black);
+    }
+    
+    .content-container{
+        width: 90%;
+        padding: 20px;
+        margin: 20px;
+        display: flex;
+        gap: 20px;
+    }
+
+    .image-container{
+        width: 300px;
+        padding-top: 150px;
+        border-radius: 10px;
+    }
 }
