@@ -490,7 +490,7 @@ footer{
 
     .content-container{
         width: 90%;
-        padding: 20px;
+        padding: 10px;
         margin: 10px;
         display:list-item;
         gap: 20px;
@@ -499,7 +499,7 @@ footer{
 
     .text-container{
         padding-top: 100px;
-        width: 85vw;;
+        width: 80vw;;
         color: var(--black);
         
     }
