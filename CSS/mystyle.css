@@ -107,7 +107,7 @@ footer{
     font-size: 20px;
 }
 
-/* ----------------MEDIA QUERIES----------*/
+/* ---------------- MEDIA QUERIES RESPONSIVE----------*/
 @media (max-width: 1208px) {
 
     .logo{
@@ -173,7 +173,7 @@ footer{
         height: 400px;
         width: 100%;
         left: -100%;
-        transition: 2s;
+        transition: 1s;
     }
 
     nav ul li{
@@ -309,7 +309,7 @@ footer{
         height: 400px;
         width: 100%;
         left: -100%;
-        transition: 2s;
+        transition: 1s;
     }
 
     nav ul li{
@@ -370,7 +370,7 @@ footer{
         height: 400px;
         width: 100%;
         left: -100%;
-        transition: 2s;
+        transition: 1s;
     }
 
     nav ul li{
