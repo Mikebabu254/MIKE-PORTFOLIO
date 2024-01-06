@@ -1,11 +1,20 @@
-document.addEventListener("DOMContentLoaded", function() {
-    var faBarIcon = document.getElementById("faBar");
-    var navList = document.getElementById("navList");
+let faBarIcon = document.getElementById("faBar");
+let navList = document.getElementById("navList");
+let faxmark = document.getElementById("faBarXmark");
 
-    faBarIcon.addEventListener("click", function() {
-        // Toggle between 100% and 50% marginLeft
-        var currentMargin = parseInt(navList.style.marginLeft) || 0;
-        var newMargin = (currentMargin === 100) ? 0 : 100;
-        navList.style.marginLeft = newMargin + "%";
-    });
-});
+faxmark.style.visibility="hidden";
+
+faBarIcon.onclick = function(){
+    navList.style.paddingLeft="100%";
+    faBarIcon.classList.remove("fa-bars");
+    faBarIcon.classList.add("fa-times");
+    faxmark.style.visibility="visible";
+}
+
+faxmark.onclick = function(){
+    navList.style.paddingLeft="0%";
+    faBarIcon.classList.remove("fa-times");
+    faBarIcon.classList.add("fa-bars");
+    faxmark.style.visibility="hidden";
+}
+
