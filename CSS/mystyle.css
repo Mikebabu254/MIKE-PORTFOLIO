@@ -189,14 +189,14 @@ footer{
 
     .fa-bars{
         color: var(--aqua);
-        font-size: 10vw;
+        font-size: 50px;
         float: right;
         margin: 30px 50px 0 0;
     }
 
     .fa-xmark{
         color: var(--aqua);
-        font-size: 10vw;
+        font-size: 50px;
         float: right;
         margin: 30px 50px 0 0;
         
