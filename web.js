@@ -17,4 +17,3 @@ faxmark.onclick = function(){
     faBarIcon.classList.add("fa-bars");
     faxmark.style.visibility="hidden";
 }
-
