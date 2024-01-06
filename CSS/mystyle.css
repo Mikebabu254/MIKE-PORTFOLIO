@@ -194,7 +194,7 @@ footer{
         position: absolute;
         background-color: var(--dark);
         height: 400px;
-        margin-top: -5px;
+        margin-top: -10px;
         width: 100%;
         left: -100%;
         transition: 1s;
@@ -203,7 +203,6 @@ footer{
     nav ul li{
         display: block;
         text-align: center;
-        
     }
 
     nav ul li a{
@@ -243,7 +242,6 @@ footer{
         width: 400px;
         padding-top: 10px;
         border-radius: 10px;
-        
     }
 
 }
@@ -267,15 +265,12 @@ footer{
     .image-container{
         width: 400px;
         padding-top: 50px;
-        border-radius: 10px;
-        
+        border-radius: 10px; 
     }
 
 }
 
 @media (max-width: 904px){
-
-    
 
     .text-container{
         width: 400px;
@@ -294,19 +289,15 @@ footer{
         width: 400px;
         margin-top: -200px;
         border-radius: 10px;
-
     }
 }
 
 @media (max-width: 915px){
 
-   
-
     .text-container{
         margin-top: -100px;
         width: 400px;
-        color: var(--black);
-            
+        color: var(--black);   
     }
 
     .content-container{
@@ -315,7 +306,6 @@ footer{
         margin: 20px;
         display: flex;
         gap: 20px;
-        
     }
 
     .image-container{
@@ -332,7 +322,7 @@ footer{
         position: absolute;
         background-color: var(--dark);
         height: 400px;
-        margin-top: -5px;
+        margin-top: -10px;
         width: 100%;
         left: -100%;
         transition: 1s;
@@ -372,7 +362,6 @@ footer{
 
 @media (max-width: 792px) {
 
-
     .content-container{
         width: 90%;
         padding: 20px;
@@ -393,7 +382,7 @@ footer{
     nav ul{
         position: absolute;
         background-color: var(--dark);
-        margin-top: -5px;
+        margin-top: -10px;
         height: 400px;
         width: 100%;
         left: -100%;
@@ -403,15 +392,12 @@ footer{
     nav ul li{
         display: block;
         text-align: center;
-        
     }
 
     nav ul li a{
         color: var(--aqua);
         font-size: 35px;
     }
-
-    
 
     .text-container{
         padding-top: 100px;
@@ -442,23 +428,19 @@ footer{
         margin: 10px;
         display:list-item;
         gap: 20px;
-        
     }
 
     .text-container{
         padding-top: 100px;
         width: 80vw;
         color: var(--black);
-        
     }
 
     
-
     .image-container{
         width: 70vw;
         padding-top: 150px;
         border-radius: 10px;
-        
     }
 
 }
