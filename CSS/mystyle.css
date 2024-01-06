@@ -189,14 +189,15 @@ footer{
 
     .fa-bars{
         color: var(--aqua);
-        font-size: 40px;
+        font-size: 5vw;
         float: right;
         margin: 30px 50px 0 0;
+        
     }
 
     .fa-xmark{
         color: var(--aqua);
-        font-size: 40px;
+        font-size: 5vw;
         float: right;
         margin: 30px 50px 0 0;
     }
@@ -225,6 +226,21 @@ footer{
 
 
 @media (max-width: 915px){
+
+
+    .fa-bars{
+        color: var(--aqua);
+        font-size: 5vw;
+        float: right;
+        margin: 30px 50px 0 0;
+    }
+
+    .fa-xmark{
+        color: var(--aqua);
+        font-size: 5vw;
+        float: right;
+        margin: 30px 50px 0 0;
+    }
 
     .text-container{
         padding-top: 100px;
@@ -248,6 +264,22 @@ footer{
 }
 
 @media (max-width: 904px){
+
+    .fa-bars{
+        color: var(--aqua);
+        font-size: 5vw;
+        float: right;
+        margin: 30px 50px 0 0;
+    }
+
+    .fa-xmark{
+        color: var(--aqua);
+        font-size: 5vw;
+        float: right;
+        margin: 30px 50px 0 0;
+        
+    }
+
     .text-container{
         width: 400px;
         color: var(--black);
@@ -270,14 +302,27 @@ footer{
 }
 
 @media (max-width: 915px){
-    .content-container{
 
-        .text-container{
-            margin-top: -100px;
-            width: 400px;
-            color: var(--black);
+    .fa-bars{
+        color: var(--aqua);
+        font-size: 5vw;
+        float: right;
+        margin: 30px 50px 0 0;
+    }
+
+    .fa-xmark{
+        color: var(--aqua);
+        font-size: 5vw;
+        float: right;
+        margin: 30px 50px 0 0;
+    }
+
+    .text-container{
+        margin-top: -100px;
+        width: 400px;
+        color: var(--black);
             
-        }
+    }
 
     .content-container{
         width: 90%;
@@ -320,14 +365,14 @@ footer{
 
     .fa-bars{
         color: var(--aqua);
-        font-size: 40px;
+        font-size: 5vw;
         float: right;
         margin: 30px 50px 0 0;
     }
 
     .fa-xmark{
         color: var(--aqua);
-        font-size: 40px;
+        font-size: 5vw;
         float: right;
         margin: 30px 50px 0 0;
     }
@@ -353,6 +398,21 @@ footer{
 }
 
 @media (max-width: 792px) {
+
+    .fa-bars{
+        color: var(--aqua);
+        font-size: 5vw;
+        float: right;
+        margin: 30px 50px 0 0;
+    }
+
+    .fa-xmark{
+        color: var(--aqua);
+        font-size: 5vw;
+        float: right;
+        margin: 30px 50px 0 0;
+    }
+
     .content-container{
         width: 90%;
         padding: 20px;
@@ -392,14 +452,14 @@ footer{
 
     .fa-bars{
         color: var(--aqua);
-        font-size: 40px;
+        font-size: 5vw;
         float: right;
         margin: 30px 50px 0 0;
     }
 
     .fa-xmark{
         color: var(--aqua);
-        font-size: 40px;
+        font-size: 5vw;
         float: right;
         margin: 30px 50px 0 0;
         
