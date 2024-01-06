@@ -1,3 +1,4 @@
+/*--------overal-------*/
 *{
     padding: 0;
     margin: 0;
@@ -28,10 +29,6 @@ nav{
     height: 70px;
 }
 
-.checkbtn{
-    background-color: red;
-    cursor: pointer;
-}
 
 nav ul {
     float: right;
@@ -57,6 +54,30 @@ a.active,a:hover{
     color: var(--aqua);
 }
 
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: var(--black);
+}
+
+.social-media{
+    align-items: center;
+    text-align: center;
+}
+
+.fa{
+    color: var(--geyser);
+    padding: 25px;
+    font-size: 20px; 
+}
+
+.fa-brands{
+    color: var(--geyser);
+    padding: 25px;
+    font-size: 20px;
+}
+
+/*-------------- index.html-----------------*/
 .content-container{
     padding: 20px;
     margin: 20px;
@@ -84,28 +105,14 @@ a.active,a:hover{
     
 }
 
-footer{
-    width: 100%;
-    height: 100px;
-    background-color: var(--black);
+/*-------------- about.html-----------------*/
+.description{
+    margin: 50px 10px 10px 10px;
+    border: #000000 solid 2px;
+    font-size: 40px;
 }
 
-.social-media{
-    align-items: center;
-    text-align: center;
-}
 
-.fa{
-    color: var(--geyser);
-    padding: 25px;
-    font-size: 20px; 
-}
-
-.fa-brands{
-    color: var(--geyser);
-    padding: 25px;
-    font-size: 20px;
-}
 
 /* ---------------- MEDIA QUERIES RESPONSIVE----------*/
 @media (max-width: 1208px) {
