@@ -194,6 +194,7 @@ footer{
         position: absolute;
         background-color: var(--dark);
         height: 400px;
+        margin-top: -5px;
         width: 100%;
         left: -100%;
         transition: 1s;
@@ -331,6 +332,7 @@ footer{
         position: absolute;
         background-color: var(--dark);
         height: 400px;
+        margin-top: -5px;
         width: 100%;
         left: -100%;
         transition: 1s;
@@ -391,6 +393,7 @@ footer{
     nav ul{
         position: absolute;
         background-color: var(--dark);
+        margin-top: -5px;
         height: 400px;
         width: 100%;
         left: -100%;
