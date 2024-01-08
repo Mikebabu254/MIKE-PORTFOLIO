@@ -18,6 +18,7 @@
 
 body{
     background-color: var(--geyser);
+    height: 100%;
 }
 
 nav{
@@ -126,6 +127,11 @@ footer{
 
 /*-------------- about.html-----------------*/
 .description{
+    margin: 50px 10px 10px 10px;
+    font-size: 20px;
+}
+
+.logo_des{
     margin: 50px 10px 10px 10px;
     font-size: 20px;
 }
