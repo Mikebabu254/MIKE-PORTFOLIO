@@ -149,7 +149,34 @@ footer{
     font-size: 20px;
 }
 
+/*-------contact.html---------------*/
+.contact_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
 
+.myForm{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.myTxt{
+    margin: 20px 0 10px 0;
+    height: 30px;
+    font-size: 25px;
+    border: 0;
+    border-radius: 5px;
+}
+
+form textarea{
+    font-size: 20px;
+    border-radius: 5px;
+}
 
 /* ---------------- MEDIA QUERIES RESPONSIVE----------*/
 @media (max-width: 1208px) {
