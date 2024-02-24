@@ -83,6 +83,7 @@ footer{
 }
 
 .social-media{
+    margin-top: 30px;
     align-items: center;
     text-align: center;
 }
@@ -99,6 +100,11 @@ footer{
     font-size: 20px;
 }
 
+.copyRight{
+    color: var(--geyser);
+    font-size: 18px;
+}
+
 .footerLogo{
     width: 20vw;
     height: 50vh;
@@ -107,9 +113,9 @@ footer{
 /*-------------- index.html-----------------*/
 .content-container{
     padding: 20px;
-    margin: 20px;
+    margin: 10px;
     display: flex;
-    gap: 50px;
+    justify-content: space-around;
 }
 
 .text-container{
