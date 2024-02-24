@@ -80,6 +80,8 @@ footer{
     background-color: var(--black);
     display: flex;
     justify-content: space-around;
+    position: relative;
+    margin-bottom: 0;
 }
 
 .social-media{
@@ -107,7 +109,7 @@ footer{
 
 .footerLogo{
     width: 20vw;
-    height: 50vh;
+    height: auto;
 }
 
 /*-------------- index.html-----------------*/
@@ -232,6 +234,11 @@ form textarea{
         margin-top: -50px;
         border-radius: 10px;
     }
+
+    .footerLogo{
+        width: 25vw;
+        height: auto;
+    }
 }
 
 @media (max-width: 948px){
@@ -290,6 +297,11 @@ form textarea{
         border-radius: 10px;
     }
 
+    .footerLogo{
+        width: 35vw;
+        height: auto;
+    }
+
 }
 
 
@@ -297,7 +309,7 @@ form textarea{
 @media (max-width: 915px){
 
     .text-container{
-        padding-top: 100px;
+        padding-top: -100px;
         width: 400px;
         color: var(--black);
     }
@@ -404,6 +416,11 @@ form textarea{
         border-radius: 10px;
     }
 
+    .footerLogo{
+        width: 40vw;
+        height: auto;
+    }
+
 }
 
 @media (max-width: 792px) {
@@ -468,12 +485,15 @@ form textarea{
 
 @media (max-width: 700px) {
 
+    nav{
+        width: 100vw;
+    }
+
     .content-container{
         width: 90%;
-        padding: 10px;
-        margin: 10px;
-        display:list-item;
-        gap: 20px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .text-container{
@@ -488,5 +508,25 @@ form textarea{
         padding-top: 150px;
         border-radius: 10px;
     }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .footerLogo{
+        width: 50vw;
+        height: auto;
+    }
+
+    .social-media{
+        margin-top: 30px;
+        align-items: center;
+        text-align: center;
+    }
+
+    
 
 }
