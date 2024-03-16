@@ -39,6 +39,7 @@ nav{
     border-radius: 50%;
     padding: 5px;
     box-shadow: 10px 20px 20px var(--pearl);
+    
 }
 
 
@@ -48,6 +49,8 @@ nav ul {
     border-radius: 40px;
     display: flex;
     justify-content: center;
+    background-color: var(--aqua);
+    box-shadow: 10px 20px 20px var(--pearl);
 }
 
 nav ul li{
@@ -55,6 +58,7 @@ nav ul li{
     line-height: 25px;
     margin: 0px 10px 0px 0px;
     padding: 20px 0 20px 0;
+    
 }
 
 nav ul li a{
@@ -160,7 +164,7 @@ footer{
 
 /*-------------- about.html-----------------*/
 .about{
-    background-color: var(--geyser);
+    background-color: var(--aqua);
     height: 380vh;
 }
 .description{
@@ -196,9 +200,7 @@ footer{
 
 /*-------contact.html---------------*/
 
-.contact{
-    
-}
+
 .contact_content{
     display: flex;
     justify-content: center;
