@@ -14,10 +14,14 @@
     --dark: #1e2022;
     --black: #000000;
     --aqua: #00ffff;
+
+    /* new colors */
+    --purple: #a155ff;
+    --green: #ceff99;
 }
 
 body{
-    background-color: var(--geyser);
+    background-color: var(--aqua);
     height: 100%;
 }
 
@@ -99,15 +103,14 @@ footer{
 
 /*-------------- index.html-----------------*/
 .content-container{
-    padding: 20px;
-    margin: 20px;
     display: flex;
-    gap: 50px;
+    padding: 10px 0 10px 0;
+    justify-content: center;
 }
 
 .text-container{
     padding-top: 130px;
-    width: 45%;
+    width: 50vw;
     color: var(--dark);
 }
 
@@ -121,7 +124,8 @@ footer{
 
 .image-container{
     width: 400px;
-    border-radius: 10px;
+    border-radius: 50%;
+    background-color: var(--purple);
     
 }
 
