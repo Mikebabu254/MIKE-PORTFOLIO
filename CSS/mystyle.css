@@ -18,6 +18,7 @@
     /* new colors */
     --purple: #a155ff;
     --green: #ceff99;
+    --aquamarine: #81ffd6;
 }
 
 body{
@@ -155,17 +156,24 @@ footer{
 }
 
 /*-------------- about.html-----------------*/
+.about{
+    
+}
 .description{
-    margin: 50px 10px 10px 10px;
+    margin: 50px 10px 0px 10px;
     font-size: 20px;
 }
 
 .logo_des{
-    margin: 50px 10px 10px 10px;
+    margin: 50px 10px 0px 10px;
     font-size: 20px;
 }
 
 /*-------contact.html---------------*/
+
+.contact{
+    
+}
 .contact_content{
     display: flex;
     justify-content: center;
@@ -175,10 +183,11 @@ footer{
 }
 
 .myForm{
-    height: 400px;
-    width: 400px;
+    width: 500px;
+    height: auto;
     display: flex;
     flex-direction: column;
+    padding: 20px;
 }
 
 .myTxt{
