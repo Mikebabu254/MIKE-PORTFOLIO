@@ -158,6 +158,7 @@ footer{
 /*-------------- about.html-----------------*/
 .about{
     background-color: var(--geyser);
+    height: 380vh;
 }
 .description{
     margin: 50px 10px 0px 10px;
@@ -185,6 +186,9 @@ footer{
     font-size: 25px;
 }
 
+.about-image{
+    box-shadow: 20px 30px 20px var(--pearl);
+}
 
 
 /*-------contact.html---------------*/
