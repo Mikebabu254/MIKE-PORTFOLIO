@@ -21,38 +21,46 @@
 }
 
 body{
-    background-color: var(--aqua);
+    background-color: var(--wheat);
     height: 100%;
 }
 
 nav{
     width: 100%;
     height: 110px;
-    background-color: var(--black);
 }
 
 .logo{
-    margin: -10px 5px 0px 0px;
+    margin: 10px;
     width: 100px;
     height: auto;
+    background-color: var(--black);
+    border-radius: 50%;
+    padding: 5px;
 }
 
 
 nav ul {
     float: right;
-    margin-right: -100px;
+    margin: 20px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li{
     display: inline-block;
     line-height: 25px;
-    margin: 40px 100px 0px 0px;
+    margin: 0px 10px 0px 0px;
+    padding: 20px 0 20px 0;
 }
 
 nav ul li a{
-    color: var(--wheat);
-    font-size: 20px;
-    padding: 0px 0px;
+    color: var(--black);
+    font-size: 25px;
+    padding: 10px 20px 10px 20px;
+    margin: 10px 30px 10px 30px;
+    transition: 2s;
     
 }
 
@@ -74,8 +82,9 @@ nav ul li a{
 
 a.active,a:hover{
     transition: 1s;
-    border-radius: 10px;
+    border-radius: 20px;
     color: var(--aqua);
+    background-color: var(--purple);
 }
 
 footer{
