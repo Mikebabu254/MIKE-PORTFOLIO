@@ -157,17 +157,52 @@ footer{
 
 /*-------------- about.html-----------------*/
 .about{
-    
+
 }
 .description{
     margin: 50px 10px 0px 10px;
     font-size: 20px;
+    background-color: #00ffff;
+}
+
+.web{
+    margin: 20px 10px 0px 10px;
+    background-color: #81ffd6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.web-text{
+    width: 50vw;
+    font-size: 25px;
+}
+
+.mobile{
+    margin: 20px 10px 0px 10px;
+    font-size: 20px;
+    background-color: #00ffff;
 }
 
 .logo_des{
-    margin: 50px 10px 0px 10px;
+    margin: 20px 10px 0px 10px;
     font-size: 20px;
+    background-color: var(--aquamarine);
 }
+
+.brochure{
+    margin: 20px 10px 0px 10px;
+    font-size: 20px;
+    background-color: #00ffff;
+}
+
+.conclusion{
+    margin: 20px 10px 0px 10px;
+    font-size: 20px;
+    background-color: #81ffd6;
+}
+
 
 /*-------contact.html---------------*/
 
