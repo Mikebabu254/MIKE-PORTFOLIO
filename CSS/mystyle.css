@@ -374,6 +374,14 @@ form textarea{
     }
 }
 
+
+@media (max-width: 700px) {
+    nav ul{
+        position: absolute;
+        margin-left: 170px;
+    }
+}
+
 @media (max-width: 650px) {    
     .logo{
         width: 80px;
@@ -388,6 +396,7 @@ form textarea{
         margin-top: 400px;
         flex-direction: column;
         z-index: 1;
+        margin-left: 100px;
         background-color: var(--dark);
         width: 70%;
         align-items: center;
@@ -408,7 +417,7 @@ form textarea{
 
     .fa-bars{
         font-size: 30px;
-        margin: 30px 200px 0 90%;
+        margin: 30px 0px 0 85%;
         visibility: visible;
         position: absolute;
         float: right;
@@ -422,21 +431,16 @@ form textarea{
         position: absolute;
     }
 
-    .about{
-        background-color: var(--aquamarine);
-    
-    }
-}
-
-@media (max-width: 550px) {
-    nav ul{
-        margin-right: 50px;
-    }
-    
     footer{
+        width: 100%;
         flex-direction: column;
         height: auto;
         align-items: center;
         padding: 20px 0 20px 0;
     }
+}
+
+@media (max-width: 550px) {
+
+    
 }
