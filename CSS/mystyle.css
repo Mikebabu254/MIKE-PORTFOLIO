@@ -70,6 +70,23 @@ nav ul li a{
     
 }
 
+nav ul li a:hover{
+    transition: 1s;
+    border-radius: 20px;
+    color: var(--aqua);
+    background-color: var(--purple);
+    box-shadow: 10px 20px 20px var(--pearl);
+}
+
+/* 
+a.active,a:hover{
+    transition: 1s;
+    border-radius: 20px;
+    color: var(--aqua);
+    background-color: var(--purple);
+    box-shadow: 10px 20px 20px var(--pearl);
+} */
+
 .fa-bars{
     color: var(--aqua);
     font-size: 25px;
@@ -86,13 +103,7 @@ nav ul li a{
     visibility: hidden;
 }
 
-a.active,a:hover{
-    transition: 1s;
-    border-radius: 20px;
-    color: var(--aqua);
-    background-color: var(--purple);
-    box-shadow: 10px 20px 20px var(--pearl);
-}
+
 
 footer{
     width: 100%;
@@ -238,7 +249,44 @@ form textarea{
 /* ----------------service.html-------------------- */
 
 .my-container{
-    background-color: #81ffd6;
+
+    margin-top: 30px;
+    padding: 5px;
+}
+
+.my-container-txt{
+    font-size: 22px;
+}
+
+.my-services{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service{
+    background-color: var(--purple);
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    align-items: center;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 20px 20px 20px var(--pearl);
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.service img{
+    margin-top: 10px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.service-txt{
+    font-size: 20px;
 }
 
 /* ---------------- MEDIA QUERIES RESPONSIVE----------*/
