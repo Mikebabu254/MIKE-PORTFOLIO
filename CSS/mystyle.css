@@ -302,6 +302,17 @@ form textarea{
 /* ---------------- MEDIA QUERIES RESPONSIVE----------*/
 
 @media (max-width: 1024px) {
+    nav ul {
+        float: right;
+        margin-left: -90px;
+        border-radius: 40px;
+        display: flex;
+        justify-content: center;
+        background-color: var(--aqua);
+        box-shadow: 10px 20px 20px var(--pearl);
+    }
+
+
     .my-about{
         align-items: flex-start;
     }
@@ -319,6 +330,7 @@ form textarea{
     nav ul {
         float: right;
         margin: 20px;
+        margin-left: -40px;
         border-radius: 40px;
         display: flex;
         justify-content: center;
@@ -381,4 +393,8 @@ form textarea{
     .text-container{
         width: 100%;
     }
+}
+
+@media (max-width: 650px) {
+    
 }
