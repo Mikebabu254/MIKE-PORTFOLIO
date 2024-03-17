@@ -96,7 +96,7 @@ a.active,a:hover{
 
 footer{
     width: 100%;
-    height: 400px;
+    height: 350px;
     background-color: var(--black);
     display: flex;
     justify-content: space-around;
@@ -128,8 +128,12 @@ footer{
 }
 
 .footerLogo{
-    width: 20vw;
-    height: auto;
+    margin-top: 20px;
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 10px 20px 40px var(--pearl);
 }
 
 /*-------------- index.html-----------------*/
@@ -228,6 +232,13 @@ footer{
 form textarea{
     font-size: 20px;
     border-radius: 5px;
+}
+
+
+/* ----------------service.html-------------------- */
+
+.my-container{
+    background-color: #81ffd6;
 }
 
 /* ---------------- MEDIA QUERIES RESPONSIVE----------*/
