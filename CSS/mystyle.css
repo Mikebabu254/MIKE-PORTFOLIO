@@ -400,6 +400,7 @@ form textarea{
         background-color: var(--dark);
         width: 70%;
         align-items: center;
+        visibility: hidden;
     }
 
     nav ul li a{
@@ -438,9 +439,4 @@ form textarea{
         align-items: center;
         padding: 20px 0 20px 0;
     }
-}
-
-@media (max-width: 550px) {
-
-    
 }
