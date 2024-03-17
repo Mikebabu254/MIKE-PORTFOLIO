@@ -381,7 +381,6 @@ form textarea{
     }
 
     nav ul {
-        margin-left: -70px;
         margin-top: 400px;
         border-radius: 10px;
         z-index: 1;
@@ -429,7 +428,7 @@ form textarea{
 
 @media (max-width: 550px) {
     nav ul{
-        padding-left: -100px;
+        margin-right: 50px;
     }
     
     footer{
