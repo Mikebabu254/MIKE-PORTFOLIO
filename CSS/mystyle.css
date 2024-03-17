@@ -40,8 +40,7 @@ nav{
     background-color: var(--black);
     border-radius: 50%;
     padding: 5px;
-    box-shadow: 10px 20px 20px var(--pearl);
-    
+    box-shadow: 10px 20px 20px var(--pearl);  
 }
 
 
@@ -104,8 +103,6 @@ a.active,a:hover{
     margin: 30px 50px 0 0;
     visibility: hidden;
 }
-
-
 
 footer{
     width: 100%;
@@ -396,5 +393,47 @@ form textarea{
 }
 
 @media (max-width: 650px) {
-    
+        
+    .logo{
+        width: 80px;
+        height: 80px;
+    }
+
+    nav ul {
+        margin-top: 400px;
+        border-radius: 10px;
+        z-index: 1;
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        visibility: hidden;
+        height: 300px;
+        
+    }
+
+    nav ul li a{
+        transition: 0s;
+    }
+
+    .image-container{
+        width: 80vw;
+    }
+
+    .fa-bars{
+        color: var(--aqua);
+        font-size: 30px;
+        margin: 30px 100px 0 90%;
+        visibility: visible;
+        position: absolute;
+        float: right;
+    }
+
+    .fa-xmark{
+        color: var(--aqua);
+        font-size: 30px;
+        float: right;
+        margin: 30px 100px 0 90%;
+        visibility: hidden;
+        position: absolute;
+    }
 }
