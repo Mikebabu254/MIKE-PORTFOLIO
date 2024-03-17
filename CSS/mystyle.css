@@ -362,7 +362,7 @@ form textarea{
 
 @media (max-width: 770px) {
     nav ul{
-        margin-left: -30px;
+        margin-left: -100px;
     }
 
     .content-container{
@@ -381,10 +381,11 @@ form textarea{
     }
 
     nav ul {
+        margin-left: -70px;
         margin-top: 400px;
         border-radius: 10px;
         z-index: 1;
-        width: 500px;
+        width: 450px;
         display: flex;
         flex-direction: column;
         visibility: hidden;
@@ -403,7 +404,7 @@ form textarea{
 
     .fa-bars{
         font-size: 30px;
-        margin: 30px 100px 0 90%;
+        margin: 30px 200px 0 90%;
         visibility: visible;
         position: absolute;
         float: right;
@@ -412,13 +413,25 @@ form textarea{
     .fa-xmark{
         font-size: 30px;
         float: right;
-        margin: 30px 100px 0 90%;
+        margin: 30px 200px 0 90%;
         visibility: hidden;
         position: absolute;
+    }
+
+    .about{
+        background-color: var(--aquamarine);
+        height: auto;
+        padding: 0;
+        width: 100vw;
+        margin: 0;
     }
 }
 
 @media (max-width: 550px) {
+    nav ul{
+        padding-left: -100px;
+    }
+    
     footer{
         flex-direction: column;
         height: auto;
