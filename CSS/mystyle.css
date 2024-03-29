@@ -288,10 +288,45 @@ form textarea{
     align-items: center;
 }
 
-.web-development iframe{
-    width: 80%;
-    height: 500px;
-    border: 5px solid var(--aquamarine);
+.web-container{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.web-service{
+    background-color: var(--aqua);
+    width: 500px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 20px 20px 20px var(--pearl);
+    border-radius: 20px;
+}
+
+.web-service img{
+    width: 450px;
+    margin: 10px;
+    cursor: zoom-in;
+    border-radius: 5px;
+}
+
+.service-txt{
+    padding: 5px 10px 0 10px;
+}
+
+.web-service button{
+    width: 200px;
+    margin: 20px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: var(--green);
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    
 }
 
 /* ----------------MEDIA QUERIES RESPONSIVE-------------------*/
