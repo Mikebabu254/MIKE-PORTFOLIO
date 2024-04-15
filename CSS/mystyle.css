@@ -167,13 +167,14 @@ footer{
     height: auto;
     padding: 20px 10px 50px 10px;
 }
+
 .description{
     margin: 50px 10px 0px 10px;
     font-size: 25px;
 }
 
 .about h1{
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
     margin-bottom: -20px;
 }
@@ -228,12 +229,33 @@ footer{
     height: 30px;
     font-size: 25px;
     border: 0;
+    background-color: var(--green);
     border-radius: 5px;
 }
 
 form textarea{
     font-size: 20px;
     border-radius: 5px;
+    background-color: var(--green);
+    border-radius: 5px;
+}
+
+.submitBtn{
+    width: 80%;
+    height: 40px;
+    border-radius: 15px;
+    background-color: var(--aqua);
+    box-shadow: 15px 20px 15px var(--pearl);
+    margin: 30px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.submitBtn:hover{
+    scale: 1.1;
+    box-shadow: 20px 30px 20px var(--pearl);
+    margin: 30px;
+    transition: 1s;
 }
 
 
