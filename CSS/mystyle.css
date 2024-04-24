@@ -344,20 +344,17 @@ form textarea{
 }
 
 .web-service{
-    background-color: var(--aqua);
-    width: 500px;
-    margin: 10px;
+    background-color: var(--cream);
+    width: 45vw;
+    margin: 20px;
     display: flex;
     flex-direction: column;
+    border-radius: 10px;
     align-items: center;
-    justify-content: center;
-    box-shadow: 20px 20px 20px var(--pearl);
-    border-radius: 20px;
 }
 
 .web-service img{
-    width: 450px;
-    margin: 10px;
+    width: 100%;
     cursor: zoom-in;
     border-radius: 5px;
 }
@@ -371,11 +368,11 @@ form textarea{
     margin: 20px;
     height: 40px;
     border-radius: 30px;
-    background-color: var(--green);
+    background-color: var(--dark);
     font-size: large;
     font-weight: bold;
     cursor: pointer;
-    
+    color: var(--aquamarine);
 }
 
 
@@ -412,6 +409,10 @@ form textarea{
 
     .about-text{
         padding: 10px 20px 10px 20px;
+    }
+
+    .web-service{
+        width: 95vw;
     }
 }
 
@@ -464,6 +465,10 @@ form textarea{
 
     .about-image img{
         width: 90%;
+    }
+
+    .web-service{
+        width: 95vw;
     }
 }
 
