@@ -16,6 +16,7 @@
     --purple: #a155ff;
     --green: #ceff99;
     --aquamarine: #81ffd6;
+    --cream: #e5e7d9;
 }
 
 body{
@@ -188,12 +189,11 @@ footer{
 }
 
 .my-about{
-    width: 300px;
-    background-color: var(--aqua);
+    width: 250px;
+    background-color: var(--wheat);
     padding: 20px;
     display: flex;
     flex-direction: column;
-    box-shadow: 20px 30px 20px var(--pearl);
     border-radius: 20px;
 }
 
@@ -209,6 +209,15 @@ footer{
     font-size: 30px;
     width: 50vw;
     color: var(--dark);
+}
+
+.my-img{
+    
+    width: 100%;
+}
+
+.my-img img{
+    width: 100%;
 }
 
 .about-text{
