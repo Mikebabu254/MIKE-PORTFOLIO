@@ -45,16 +45,6 @@ nav {
     height: 60px;
 }
 
-nav ul {
-    /* float: right;
-    margin: 20px;
-    border-radius: 40px;
-    display: flex;
-    justify-content: center;
-    background-color: var(--aqua);
-    box-shadow: 10px 20px 20px var(--pearl); */
-}
-
 nav ul li{
     display: inline-block;
     line-height: 25px;
@@ -147,7 +137,7 @@ footer{
 }
 
 .text-container{
-    width: 50vw;
+    width: 60vw;
     color: var(--dark);
 }
 
@@ -161,27 +151,24 @@ footer{
 
 .image-container{
     width: 400px;
-    border-radius: 50%;
-    background-color: var(--purple);
-    box-shadow: 20px 30px 20px var(--pearl);
+    border-radius:5%; 
 }
 
 /*----------------------------about---------------------------*/
 .about{
-    background-color: var(--aquamarine);
     height: auto;
     padding: 20px 10px 50px 10px;
 }
 
 .description{
     margin: 50px 10px 0px 10px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .about h1{
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
-    margin-bottom: -20px;
+    margin-bottom: 0px;
 }
 
 .new-about{
@@ -194,7 +181,7 @@ footer{
 
 .my-about{
     width: 250px;
-    background-color: var(--wheat);
+    background-color: var(--pearl);
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -202,22 +189,21 @@ footer{
 }
 
 .other-about{
-    padding: 20px;
-    margin: 20px;
+    padding: 10px;
+    margin: 10px;
     display: flex;
     align-items: center;
     gap: 50px;
 }
 
 .my-text{
-    font-size: 30px;
-    width: 50vw;
+    font-size: 20px;
+    width: 70vw;
     color: var(--dark);
 }
 
 .my-img{
-    
-    width: 100%;
+    width: 20%;
 }
 
 .my-img img{
@@ -225,7 +211,7 @@ footer{
 }
 
 .about-text{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .about-image img{
@@ -248,20 +234,30 @@ footer{
 }
 
 .myForm{
-    width: 500px;
+    width: 600px;
     height: auto;
     display: flex;
     flex-direction: column;
     padding: 20px;
+    background-color: var(--dark);
 }
 
 .myTxt{
     margin: 20px 0 10px 0;
     height: 30px;
-    font-size: 25px;
+    font-size: 20px;
     border: 0;
     background-color: var(--green);
     border-radius: 5px;
+}
+
+.two_in_one{
+    display: flex;
+    justify-content: space-between;
+}
+
+.two_in_one .myTxt{
+    width: 48%;
 }
 
 form textarea{
