@@ -311,7 +311,7 @@ form textarea{
 }
 
 .service{
-    background-color: var(--purple);
+    background-color: var(--pearl);
     height: 480px;
     display: flex;
     flex-direction: column;
@@ -319,7 +319,7 @@ form textarea{
     align-items: center;
     border-radius: 20px;
     margin: 10px;
-    box-shadow: 20px 20px 20px var(--pearl);
+    box-shadow: 20px 20px 20px var(--dark);
     padding: 20px;
 }
 
@@ -349,7 +349,7 @@ form textarea{
 }
 
 .web-service{
-    background-color: var(--cream);
+    background-color: var(--pearl);
     width: 45vw;
     margin: 20px;
     display: flex;
