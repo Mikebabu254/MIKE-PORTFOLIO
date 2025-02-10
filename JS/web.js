@@ -17,3 +17,5 @@ faxmark.onclick = function(){
     faBarIcon.classList.add("fa-bars");
     faxmark.style.visibility="hidden";
 }
+
+document.getElementById("year").textContent = new Date().getFullYear();

@@ -198,12 +198,12 @@ footer{
 
 .my-text{
     font-size: 20px;
-    width: 70vw;
+    width: 60vw;
     color: var(--dark);
 }
 
 .my-img{
-    width: 20%;
+    width: 30%;
 }
 
 .my-img img{
