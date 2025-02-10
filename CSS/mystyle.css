@@ -55,8 +55,8 @@ nav ul li{
 
 nav ul li a{
     color: var(--wheat);
-    font-size: 25px;
-    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    padding: 10px 10px 10px 20px;
     margin: 10px 30px 10px 30px;
     transition: 2s;
 }
@@ -394,8 +394,6 @@ form textarea{
         border-radius: 40px;
         display: flex;
         justify-content: center;
-        background-color: var(--aqua);
-        box-shadow: 10px 20px 20px var(--pearl);
     }
 
     .my-about{
@@ -419,9 +417,13 @@ form textarea{
     .web-service{
         width: 95vw;
     }
+
+    .my-img{
+        width: 50%;
+    }
 }
 
-@media (max-width: 820px) {
+@media (max-width: 830px) {
     nav ul {
         float: right;
         margin: 20px;
@@ -429,8 +431,6 @@ form textarea{
         border-radius: 40px;
         display: flex;
         justify-content: center;
-        background-color: var(--aqua);
-        box-shadow: 10px 20px 20px var(--pearl);
     }
 
     nav ul li{
@@ -441,7 +441,6 @@ form textarea{
     }
     
     nav ul li a{
-        color: var(--black);
         font-size: 25px;
         padding: 10px 20px 10px 20px;
         margin: 10px;
@@ -477,9 +476,23 @@ form textarea{
     }
 }
 
-@media (max-width: 770px) {
+@media (max-width: 790px) {
     nav ul{
         margin-left: -70px;
+    }
+
+    .content-container{
+        flex-direction: column;
+    }
+
+    .text-container{
+        width: 100%;
+    }
+}
+
+@media (max-width: 750px) {
+    nav ul{
+        margin-left: -120px;
     }
 
     .content-container{
@@ -495,7 +508,7 @@ form textarea{
 @media (max-width: 700px) {
     nav ul{
         position: absolute;
-        margin-left: 170px;
+        margin-left: 50px;
     }
 }
 
