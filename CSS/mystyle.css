@@ -223,32 +223,36 @@ footer{
 
 
 /*----------------------contact----------------------------------*/
-
+#contact{
+    /* margin-bottom: 100px; */
+}
 
 .contact_content{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 500px;
+    height: 600px;
+    width: auto;
 }
 
 .myForm{
     width: 600px;
-    height: auto;
+    height: 500px;
     display: flex;
     flex-direction: column;
     padding: 20px;
     background-color: var(--dark);
+    border-radius: 20px;
 }
 
 .myTxt{
     margin: 20px 0 10px 0;
     height: 30px;
-    font-size: 20px;
+    font-size: 25px;
     border: 0;
-    background-color: var(--green);
+    background-color: var(--pearl);
     border-radius: 5px;
+    padding: 10px 0 10px 5px;
 }
 
 .two_in_one{
@@ -263,16 +267,17 @@ footer{
 form textarea{
     font-size: 20px;
     border-radius: 5px;
-    background-color: var(--green);
+    background-color: var(--pearl);
     border-radius: 5px;
+    padding: 10px;
 }
 
 .submitBtn{
     width: 80%;
     height: 40px;
-    border-radius: 15px;
-    background-color: var(--aqua);
-    box-shadow: 15px 20px 15px var(--pearl);
+    border-radius: 5px;
+    background-color: var(--pearl);
+    box-shadow: 15px 20px 15px var(--black);
     margin: 30px;
     cursor: pointer;
     transition: 1s;
@@ -280,7 +285,7 @@ form textarea{
 
 .submitBtn:hover{
     scale: 1.1;
-    box-shadow: 20px 30px 20px var(--pearl);
+    box-shadow: 20px 30px 20px var(--black);
     margin: 30px;
     transition: 1s;
 }
