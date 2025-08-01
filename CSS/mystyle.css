@@ -250,7 +250,7 @@ footer{
     height: 30px;
     font-size: 25px;
     border: 0;
-    background-color: var(--pearl);
+    background-color: var(--wheat);
     border-radius: 5px;
     padding: 10px 0 10px 5px;
 }
@@ -267,7 +267,7 @@ footer{
 form textarea{
     font-size: 20px;
     border-radius: 5px;
-    background-color: var(--pearl);
+    background-color: var(--wheat);
     border-radius: 5px;
     padding: 10px;
 }
@@ -276,7 +276,7 @@ form textarea{
     width: 80%;
     height: 40px;
     border-radius: 5px;
-    background-color: var(--pearl);
+    background-color: var(--aqua);
     box-shadow: 15px 20px 15px var(--black);
     margin: 30px;
     cursor: pointer;
