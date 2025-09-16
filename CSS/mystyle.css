@@ -235,6 +235,11 @@ footer{
     width: auto;
 }
 
+.contact_content h1{
+    font-size: 30px;
+    color: var(--wheat);
+}
+
 .myForm{
     width: 600px;
     height: 500px;
