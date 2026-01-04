@@ -1,13 +1,12 @@
-import navBar from "./components/nav-bar"
+import NavBar from "./components/NavBar"
 
 function App() {
   return (
     <>
-    <navBar></navBar>
-    <footer></footer>
+    <NavBar/>
     fwere
     </>
-  )
+  );
 }
 
 export default App
