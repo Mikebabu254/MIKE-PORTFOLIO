@@ -1,4 +1,5 @@
 import React from "react";
+import "./../index.css";
 
 function Footer(){
     return(
@@ -13,6 +14,10 @@ function Footer(){
                 <a href="/about">About</a>
                 <a href="/services">Services</a>
                 <a href="/contact">Contact</a>
+            </div>
+
+            <div className="footer-bottom">
+                © {new Date().getFullYear()} mySite. All rights Reserved
             </div>
         </footer>
     )
