@@ -14,6 +14,10 @@ function Footer(){
                 <a href="/services">Services</a>
                 <a href="/contact">Contact</a>
             </div>
+
+            <div className="footer-bottom">
+                {new Date().getFullYear()} mySite. All rights Reserved
+            </div>
         </footer>
     )
 }
