@@ -1,3 +1,5 @@
+import About from "../components/About";
+
 function HomePage() {
     return (
       <div className="homepage">
@@ -9,10 +11,9 @@ function HomePage() {
                         </p>
             
                   </div>
-                  <div className="image-container">
-            <img src="public/MICHAEL.png" alt="Michael image" className="image-container" />
-        </div>
-    </div>  
+                  <img src="public/MICHAEL.png" alt="Michael image" className="image-container" />
+            </div> 
+            <About/> 
     </div> 
     );
 }
